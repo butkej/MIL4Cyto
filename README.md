@@ -9,14 +9,18 @@ This repo contains the Python code of our experiments, however there is no data 
 
 ## Citation
 Please cite our paper, if this work is of use to you or you use the code in your research:
+``` 
     @inproceedings{butke2021end,
-        title={End-to-end Multiple Instance Learning for Whole-Slide Cytopathology of Urothelial Carcinoma},
-        author={Butke, Joshua and Frick, Tatjana and Roghmann, Florian and El-Mashtoly, Samir F and Gerwert, Klaus and Mosig, Axel},
+        title={End-to-end Multiple Instance Learning for 
+            Whole-Slide Cytopathology of Urothelial Carcinoma},
+        author={Butke, Joshua and Frick, Tatjana and Roghmann, Florian 
+            and El-Mashtoly, Samir F and Gerwert, Klaus and Mosig, Axel},
         booktitle={MICCAI Workshop on Computational Pathology},
         pages={57--68},
         year={2021},
         organization={PMLR}
     }
+```
 
 ## Requirements
 Packages: 
@@ -25,7 +29,7 @@ Packages:
 - sklearn (0.23.0)
 - matplotlib (3.3.0)
 
-Hardware:
+Hardware:  
 We used a cluster equipped with 4 NVIDIA V100 GPUs, which is reflected in `joshnet/custom_model.py` where blocks of layers are assigned to dedicated cards.
 
 
@@ -36,4 +40,4 @@ I highly recommend to check out the original paper and implementation of **Ilse 
 If you have any questions you can contact me at joshua.butke@ruhr-uni-bochum.de, however we do not gurantee any support for this software.
 
 ### Acknowledgements
-This work was supported by the Ministry for Culture and Science (MKW) of North RhineWestphalia (Germany) through grant 111.08.03.05-133974 and the Center for Protein Diagnostics (PRODI).
+This work was supported by the Ministry for Culture and Science (MKW) of North Rhine-Westphalia (Germany) through grant 111.08.03.05-133974 and the Center for Protein Diagnostics (PRODI).
