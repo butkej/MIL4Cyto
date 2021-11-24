@@ -4,6 +4,8 @@ by **Joshua Butke**, Tatjana Frick, Florian Roghmann, Samir F. El-Mashtoly, Klau
 
 Accepted to and presented at MICCAI 2021 Workshop Computational Pathology [(COMPAY 2021)](https://www.examode.eu/compay2021/).
 
+[![Follow me on Twitter](https://img.shields.io/twitter/follow/JoshuaButke?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=JoshuaButke)
+
 ## Overview
 This repo contains the Python code of our experiments, however there is no data included. Still, this implementation might serve as a starting point for those interested in applying Attention-based Multiple Instance Learning to problems of cytopathology.
 
